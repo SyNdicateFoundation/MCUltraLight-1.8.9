@@ -18,7 +18,7 @@ import java.util.Map;
 
 @EqualsAndHashCode(callSuper = false)
 @Data
-public abstract class HtmlScreen extends GuiScreen {
+public class HtmlScreen extends GuiScreen {
     @ToString.Exclude
     private final ViewController viewController;
     private String url;
